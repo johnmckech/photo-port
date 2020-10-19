@@ -19,12 +19,13 @@ function Nav() {
     };
 
     return (
-        <header>
-        <h2>
-          <a href="/">
-            <span role="img" aria-label="camera"> 📸</span> Oh Snap!
-          </a>
-        </h2>
+      <header className="flex-row px-1">
+      <h2>
+      <a data-testid="link" href="/">
+          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+        </a>
+        <a data-testid="about" href="#about"></a>
+      </h2>
         <nav>
           <ul className="flex-row">
             <li className="mx-2">
